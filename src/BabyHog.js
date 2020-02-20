@@ -57,7 +57,7 @@ export default class BabyHog extends Component {
         </Button>
 
         <div className="hb-wrap">
-          <img src={this.eyeColorMapper()} style={{height: '200px'}} alt="MasterBlasterJrJr" />
+          <img src={this.eyeColorMapper()} style={{height: `${this.state.weight}px`}} alt="MasterBlasterJrJr" />
         </div>
         
       </li>
